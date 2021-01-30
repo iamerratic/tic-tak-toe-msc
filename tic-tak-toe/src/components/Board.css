@@ -1,0 +1,12 @@
+.Board{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Board > .square{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}

@@ -1,0 +1,4 @@
+.PlayerInfo > .player{
+    display: flex;
+    justify-content: center;
+}

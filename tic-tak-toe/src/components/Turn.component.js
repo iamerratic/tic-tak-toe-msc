@@ -2,11 +2,11 @@ import React from 'react';
 
 
 
-function Turn() {
+function Turn({ name }) {
 
     return (
         <div>
-            Turn Component
+            <h5>{name}'s turn </h5>
         </div>
     );
 }
