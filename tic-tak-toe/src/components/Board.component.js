@@ -1,20 +1,21 @@
 import React from 'react';
 
+import Square from './Square.component';
 import './Board.css';
 
 function Board() {
 
     return (
         <div className="Board">
-            <div className="square"></div>
-            <div className="square"></div>
-            <div className="square"></div>
-            <div className="square"></div>
-            <div className="square"></div>
-            <div className="square"></div>
-            <div className="square"></div>
-            <div className="square"></div>
-            <div className="square"></div>
+            <Square type="X" />
+            <Square type="X" />
+            <Square type="X" />
+            <Square type="X" />
+            <Square type="X" />
+            <Square type="X" />
+            <Square type="X" />
+            <Square type="X" />
+            <Square type="X" />
         </div>
     );
 }
