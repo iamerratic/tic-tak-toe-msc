@@ -2,11 +2,11 @@ import React from 'react';
 
 
 
-function Turn({ name }) {
+function Turn({ chance }) {
 
     return (
         <div>
-            <h5>{name}'s turn </h5>
+            <h5>{chance}'s turn </h5>
         </div>
     );
 }

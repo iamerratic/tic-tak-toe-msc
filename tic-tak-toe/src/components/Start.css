@@ -1,0 +1,14 @@
+.Start{
+    display: flex;
+    justify-content: center;
+}
+
+.Start > form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.Start > form > input{
+    margin: 20px;
+}
